@@ -8,9 +8,14 @@ This is not meant to be a robust fraud detector, hence the name **toy** fraud de
 
 I found a credit card fraud dataset on Kaggle which appeared to be a good candidate for a simple binary classification model. I chose to implement the same simple pipeline using three different frameworks so I could learn each of them at a surface level, and then I performed a simple comparative analysis on the three models to get a feel for key metrics.
 
+Before implementing that, I did some exploration with pandas and then just a simple logistic regression baseline with scikit.
+
 ### Project Structure
  - `/`
   - `README.md` *< you are here!*
   - `requirements.txt`
+  - `data/`
   - `notebooks/`
-    - `01_eda.ipynb`: exploratory data analysis
+    - `01_eda.py`: exploratory data analysis
+    - `02_baseline.py`: logistic regression baseline
+  - `pytorch/`: PyTorch version of the pipeline
