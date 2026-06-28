@@ -22,3 +22,20 @@ Before implementing that, I did some exploration with pandas and then just a sim
     - `03_pytorch_results`: annotated results for the pytorch version of the pipeline
   - `pytorch/`: pytorch version of the pipeline
   - `results/`: exported versions of models live here
+
+
+### Setup
+```bash
+$ python3 -m venv .venv
+$ source .venv/bin/activate # or .venv\Scripts\activate on Windows
+$ pip install -r requirements.txt
+$ pip install -e .
+```
+
+### Usage
+It's recommended to use each module as a python library from the project root.
+
+Check `notebooks/` for more metrics than the simple evaluations.
+#### PyTorch
+Train: `python3 -m pytorch.train`
+Evaluate: `python3 -m pytorch.evaluate`
