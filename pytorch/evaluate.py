@@ -2,11 +2,11 @@ import torch
 
 from common.dataset import make_torch_dataloaders
 from common.metrics import evaluate_binary_classifier
-from common.paths import CSV_PATH, PROJECT_ROOT
+from common.paths import CSV_PATH, RESULTS_DIR
 
 from .model import FraudNet
 
-MODEL_PATH = PROJECT_ROOT / "results" / "pytorch.pt"
+MODEL_PATH = RESULTS_DIR / "pytorch.pt"
 
 train_loader, X_test, y_test, _ = make_torch_dataloaders(CSV_PATH)
 

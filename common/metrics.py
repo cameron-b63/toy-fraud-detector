@@ -64,13 +64,3 @@ def evaluate_binary_classifier(y_true, y_pred, y_prob):
     )
 
     print()
-
-    plot_confusion_matrix(
-        y_true,
-        y_pred,
-    )
-
-    plot_roc_curve(
-        y_true,
-        y_prob,
-    )

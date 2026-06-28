@@ -14,8 +14,11 @@ Before implementing that, I did some exploration with pandas and then just a sim
  - `/`
   - `README.md` *< you are here!*
   - `requirements.txt`
-  - `data/`
+  - `common/`: functionality common across pipelines
+  - `data/`: contains the csv for training and testing
   - `notebooks/`
     - `01_eda.py`: exploratory data analysis
     - `02_baseline.py`: logistic regression baseline
-  - `pytorch/`: PyTorch version of the pipeline
+    - `03_pytorch_results`: annotated results for the pytorch version of the pipeline
+  - `pytorch/`: pytorch version of the pipeline
+  - `results/`: exported versions of models live here
