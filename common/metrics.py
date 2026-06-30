@@ -17,6 +17,8 @@ def print_metrics(y_true, y_pred, y_prob):
     print("-" * 60)
     print(classification_report(y_true, y_pred, digits=4))
 
+    print(confusion_matrix(y_true, y_pred))
+
     print()
 
     print("Summary")
