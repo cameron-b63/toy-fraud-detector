@@ -15,7 +15,7 @@ The dataset used here is a tiny, severely imbalanced set with rather few feature
 
 In terms of API and personal preference, I felt the best about JAX and PyTorch, and didn't really love the way tensorflow's keras felt to work with. JAX in particular has parity with my mental model of machine learning, and I felt that it provided the best balance between expressibility and verbosity. PyTorch was powerful, and felt quite approachable, but I worry (baselessly, I will admit; easy syntax simply inspires this fear) that its use cases are somewhat limited as the complexity of a pipeline grows.
 
-I feel as though I'm walking out of this weekend project with a fairly strong understanding of the fundamentals of machine learning in Python. I feel as if I have enough foundational vocabulary and understanding to be teachable. I still have plenty more to learn about the semantics of multiclass classification, regression models, and unsupervised learning, but I think I have somewhere to start.
+I feel as though I'm walking out of this weekend project with a fairly strong understanding of the fundamentals of machine learning in Python. I feel as if I have enough foundational vocabulary and understanding to be teachable. I am certainly curious about how to go about tuning the tensorflow and JAX implementations, but I also still have plenty more to learn about the semantics of multiclass classification, regression models, and unsupervised learning. Nonetheless, I feel I have somewhere to start.
 
 ### Project Structure
  - `/`
